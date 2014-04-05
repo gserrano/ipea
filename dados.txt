@@ -1,0 +1,927 @@
+Dicionario-SIPS-Ipea-OUT2013-ToleranciaViolenciaContraMulher-PUB.txt
+
+----------------------------------------------------------------------------------------------
+entrevista                                                         identificador da entrevista
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [4128,17077]                 units:  1
+         unique values:  3810                     missing .:  0/3810
+
+                  mean:   11028.7
+              std. dev:   3637.84
+
+           percentiles:        10%       25%       50%       75%       90%
+                            5733.5      8135   11174.5     14129     15970
+
+----------------------------------------------------------------------------------------------
+regiao                                                  região onde foi realizada a entrevista
+----------------------------------------------------------------------------------------------
+
+                  type:  string (str12)
+
+         unique values:  5                        missing "":  0/3810
+
+            tabulation:  Freq.  Value
+                           285  "CENTRO-OESTE"
+                          1065  "NORDESTE"
+                           300  "NORTE"
+                          1605  "SUDESTE"
+                           555  "SUL"
+
+----------------------------------------------------------------------------------------------
+q1                                                idade: qual a sua idade (em anos completos)?
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [16,88]                      units:  1
+         unique values:  73                       missing .:  0/3810
+
+                  mean:   42.3178
+              std. dev:   16.9162
+
+           percentiles:        10%       25%       50%       75%       90%
+                                20        28        41        56        66
+
+----------------------------------------------------------------------------------------------
+q3                                                                                        área
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq3
+
+                 range:  [1,3]                        units:  1
+         unique values:  3                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1109         1  metropolitano
+                          2683         2  urbano
+                            18         3  rural
+
+----------------------------------------------------------------------------------------------
+q4                                                                                        sexo
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq4
+
+                 range:  [1,2]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1276         1  masculino
+                          2534         2  feminino
+
+----------------------------------------------------------------------------------------------
+q5                                                                                 cor ou raça
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq5
+
+                 range:  [1,5]                        units:  1
+         unique values:  5                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1474         1  branca
+                           440         2  preta
+                            29         3  amarela
+                          1858         4  parda
+                             9         5  indígena
+
+----------------------------------------------------------------------------------------------
+q6                                             última série escolar que concluiu com aprovação
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lbledudetalhe
+
+                 range:  [1,19]                       units:  1
+         unique values:  19                       missing .:  0/3810
+
+              examples:  6     quarta série fundamental completa
+                         10    oitava série fundamental incompleta
+                         13    segunda série médio
+                         15    médio completo
+
+----------------------------------------------------------------------------------------------
+q7                                                             até que série o seu pai estudou
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lbledudetalhe
+
+                 range:  [1,23]                       units:  1
+         unique values:  22                       missing .:  0/3810
+
+              examples:  1     analfabeto ou sem instrução
+                         5     quarta série fundamental incompleta
+                         8     sexta série fundamental
+                         17    superior completo
+
+----------------------------------------------------------------------------------------------
+q8                                                             até que série a sua mãe estudou
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lbledudetalhe
+
+                 range:  [1,23]                       units:  1
+         unique values:  23                       missing .:  0/3810
+
+              examples:  1     analfabeto ou sem instrução
+                         4     terceira série fundamental
+                         7     quinta série fundamental
+                         15    médio completo
+
+----------------------------------------------------------------------------------------------
+q9                                               renda total do chefe da família no último mês
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [100,12000]                  units:  1
+         unique values:  173                      missing .:  669/3810
+
+                  mean:   1288.92
+              std. dev:    1012.3
+
+           percentiles:        10%       25%       50%       75%       90%
+                               600       678       920      1500      2500
+
+----------------------------------------------------------------------------------------------
+q10                     renda total de todos os moradores (parentes e agregados) no último mês
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [150,19000]                  units:  1
+         unique values:  202                      missing .:  527/3810
+
+                  mean:   1801.48
+              std. dev:   1540.48
+
+           percentiles:        10%       25%       50%       75%       90%
+                               678       800      1400      2200      3500
+
+----------------------------------------------------------------------------------------------
+q11                                    número de moradores no domicílio (parentes e agregados)
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [1,13]                       units:  1
+         unique values:  13                       missing .:  68/3810
+
+                  mean:   3.49065
+              std. dev:   1.48675
+
+           percentiles:        10%       25%       50%       75%       90%
+                                 2         2         3         4         5
+
+----------------------------------------------------------------------------------------------
+q12           no último mês, alguma pessoa deste domicílio recebeu rendimentos do bolsa famíli
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [1,88]                       units:  1
+         unique values:  4                        missing .:  0/3810
+
+            tabulation:  Freq.  Value
+                           678  1
+                          3107  2
+                            10  77
+                            15  88
+
+----------------------------------------------------------------------------------------------
+q13_1                                               my world - acesso a alimentos de qualidade
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq13
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1312         0  secundário
+                          2498         1  prioritário
+
+----------------------------------------------------------------------------------------------
+q13_2                                                     my world - governo honesto e atuante
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq13
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1683         0  secundário
+                          2127         1  prioritário
+
+----------------------------------------------------------------------------------------------
+q13_3                                      my world - apoio às pessoas que não podem trabalhar
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq13
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          2537         0  secundário
+                          1273         1  prioritário
+
+----------------------------------------------------------------------------------------------
+q13_4                                                         my world - educação de qualidade
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq13
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1059         0  secundário
+                          2751         1  prioritário
+
+----------------------------------------------------------------------------------------------
+q13_5                                           my world - melhoria nos transportes e estradas
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq13
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          2489         0  secundário
+                          1321         1  prioritário
+
+----------------------------------------------------------------------------------------------
+q13_6                                          my world - proteção a florestas, rios e oceanos
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq13
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          3178         0  secundário
+                           632         1  prioritário
+
+----------------------------------------------------------------------------------------------
+q13_7                                                          my world - liberdades políticas
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq13
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          3533         0  secundário
+                           277         1  prioritário
+
+----------------------------------------------------------------------------------------------
+q13_8                                               my world - combater as mudanças climáticas
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq13
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          3562         0  secundário
+                           248         1  prioritário
+
+----------------------------------------------------------------------------------------------
+q13_9                                                my world - melhoria dos serviços de saúde
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq13
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                           923         0  secundário
+                          2887         1  prioritário
+
+----------------------------------------------------------------------------------------------
+q13_10                                              my world - acesso ao telefone e à internet
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq13
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          3523         0  secundário
+                           287         1  prioritário
+
+----------------------------------------------------------------------------------------------
+q13_11                                 my world - eliminação do preconceito e da discriminação
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq13
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          3226         0  secundário
+                           584         1  prioritário
+
+----------------------------------------------------------------------------------------------
+q13_12                                        my world - acesso à água potável e ao saneamento
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq13
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          2849         0  secundário
+                           961         1  prioritário
+
+----------------------------------------------------------------------------------------------
+q13_13                                            my world - igualdade entre homens e mulheres
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq13
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          3354         0  secundário
+                           456         1  prioritário
+
+----------------------------------------------------------------------------------------------
+q13_14                                                 my world - acesso à energia em sua casa
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq13
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          3142         0  secundário
+                           668         1  prioritário
+
+----------------------------------------------------------------------------------------------
+q13_15                                        my world - proteção contra o crime e a violência
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq13
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          2110         0  secundário
+                          1700         1  prioritário
+
+----------------------------------------------------------------------------------------------
+q13_16                                           my world - melhores oportunidades de trabalho
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq13
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          2318         0  secundário
+                          1492         1  prioritário
+
+----------------------------------------------------------------------------------------------
+q14                                                                                   religião
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblq14
+
+                 range:  [1,88]                       units:  1
+         unique values:  8                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          2502         1  católica
+                           941         2  evangélica
+                           122         3  espírita
+                            42         4  afrobrasileiras
+                            44         5  outras
+                           149         6  sem
+                             7        77  NR
+                             3        88  NS
+
+----------------------------------------------------------------------------------------------
+q15                          mulheres que usam roupas que mostram o corpo merecem ser atacadas
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                           503         1  concorda total
+                           488         2  concorda parcial
+                          2223         3  discorda total
+                           440         4  discorda parcial
+                           130         5  neutro
+                            26         6  ns
+
+----------------------------------------------------------------------------------------------
+q16                                     as mulatas são mais fogosas do que as mulheres brancas
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                           596         1  concorda total
+                           524         2  concorda parcial
+                          1144         3  discorda total
+                           364         4  discorda parcial
+                           522         5  neutro
+                           660         6  ns
+
+----------------------------------------------------------------------------------------------
+q17           dá para entender que um homem que cresceu em uma família violenta agrida sua mul
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                           689         1  concorda total
+                           602         2  concorda parcial
+                          2072         3  discorda total
+                           355         4  discorda parcial
+                            75         5  neutro
+                            17         6  ns
+
+----------------------------------------------------------------------------------------------
+q18                                                        os homens devem ser a cabeça do lar
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1557         1  concorda total
+                           871         2  concorda parcial
+                           943         3  discorda total
+                           324         4  discorda parcial
+                           104         5  neutro
+                            11         6  ns
+
+----------------------------------------------------------------------------------------------
+q19           casos de violência dentro de casa devem ser discutidos somente entre os membros 
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1267         1  concorda total
+                          1131         2  concorda parcial
+                           960         3  discorda total
+                           356         4  discorda parcial
+                            85         5  neutro
+                            11         6  ns
+
+----------------------------------------------------------------------------------------------
+q20                 incomoda ver dois homens, ou duas mulheres, se beijando na boca em público
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1711         1  concorda total
+                           543         2  concorda parcial
+                          1075         3  discorda total
+                           264         4  discorda parcial
+                           184         5  neutro
+                            33         6  ns
+
+----------------------------------------------------------------------------------------------
+q21                         se as mulheres soubessem como se comportar, haveria menos estupros
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1346         1  concorda total
+                           883         2  concorda parcial
+                          1153         3  discorda total
+                           288         4  discorda parcial
+                            98         5  neutro
+                            42         6  ns
+
+----------------------------------------------------------------------------------------------
+q22                                          homem que bate na esposa tem que ir para a cadeia
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          2974         1  concorda total
+                           508         2  concorda parcial
+                           174         3  discorda total
+                            87         4  discorda parcial
+                            42         5  neutro
+                            25         6  ns
+
+----------------------------------------------------------------------------------------------
+q23                                 é violência falar mentiras sobre uma mulher para os outros
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1651         1  concorda total
+                           945         2  concorda parcial
+                           726         3  discorda total
+                           285         4  discorda parcial
+                           161         5  neutro
+                            42         6  ns
+
+----------------------------------------------------------------------------------------------
+q24                                                              toda mulher sonha em se casar
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1941         1  concorda total
+                          1060         2  concorda parcial
+                           468         3  discorda total
+                           223         4  discorda parcial
+                            86         5  neutro
+                            32         6  ns
+
+----------------------------------------------------------------------------------------------
+q25                                o que acontece com o casal em casa não interessa aos outros
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1797         1  concorda total
+                          1199         2  concorda parcial
+                           500         3  discorda total
+                           224         4  discorda parcial
+                            71         5  neutro
+                            19         6  ns
+
+----------------------------------------------------------------------------------------------
+q26                                            quando há violência, os casais devem se separar
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          2351         1  concorda total
+                           889         2  concorda parcial
+                           335         3  discorda total
+                           145         4  discorda parcial
+                            79         5  neutro
+                            11         6  ns
+
+----------------------------------------------------------------------------------------------
+q27             casais de pessoas do mesmo sexo devem ter os mesmos direitos dos outros casais
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1202         1  concorda total
+                           706         2  concorda parcial
+                          1243         3  discorda total
+                           302         4  discorda parcial
+                           234         5  neutro
+                           123         6  ns
+
+----------------------------------------------------------------------------------------------
+q28           dá pra entender que um homem rasgue ou quebre as coisas da mulher se ficou nervo
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                           247         1  concorda total
+                           310         2  concorda parcial
+                          2727         3  discorda total
+                           458         4  discorda parcial
+                            56         5  neutro
+                            12         6  ns
+
+----------------------------------------------------------------------------------------------
+q29                                       um homem pode xingar e gritar com sua própria mulher
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                           150         1  concorda total
+                           187         2  concorda parcial
+                          2910         3  discorda total
+                           488         4  discorda parcial
+                            69         5  neutro
+                             6         6  ns
+
+----------------------------------------------------------------------------------------------
+q30                                                        é da natureza do homem ser violento
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                           388         1  concorda total
+                           430         2  concorda parcial
+                          2357         3  discorda total
+                           486         4  discorda parcial
+                           127         5  neutro
+                            22         6  ns
+
+----------------------------------------------------------------------------------------------
+q31                                          em briga de marido e mulher, não se mete a colher
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          2226         1  concorda total
+                           895         2  concorda parcial
+                           422         3  discorda total
+                           200         4  discorda parcial
+                            53         5  neutro
+                            14         6  ns
+
+----------------------------------------------------------------------------------------------
+q32                                                       a roupa suja deve ser lavada em casa
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          2538         1  concorda total
+                           853         2  concorda parcial
+                           241         3  discorda total
+                           126         4  discorda parcial
+                            40         5  neutro
+                            12         6  ns
+
+----------------------------------------------------------------------------------------------
+q33                                      uma mulher só se sente realizada quando tem filhos/as
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1089         1  concorda total
+                          1177         2  concorda parcial
+                           959         3  discorda total
+                           350         4  discorda parcial
+                           186         5  neutro
+                            49         6  ns
+
+----------------------------------------------------------------------------------------------
+q34             a mulher casada deve satisfazer o marido na cama, mesmo quando não tem vontade
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                           535         1  concorda total
+                           501         2  concorda parcial
+                          2056         3  discorda total
+                           431         4  discorda parcial
+                           244         5  neutro
+                            43         6  ns
+
+----------------------------------------------------------------------------------------------
+q35                                             piada de preto é só brincadeira, não é racismo
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                           579         1  concorda total
+                           871         2  concorda parcial
+                          1564         3  discorda total
+                           552         4  discorda parcial
+                           201         5  neutro
+                            43         6  ns
+
+----------------------------------------------------------------------------------------------
+q36           um casal de dois homens vive um amor tão bonito quanto entre um homem e uma mulh
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                           973         1  concorda total
+                           594         2  concorda parcial
+                          1451         3  discorda total
+                           309         4  discorda parcial
+                           252         5  neutro
+                           231         6  ns
+
+----------------------------------------------------------------------------------------------
+q37                           mulher que é agredida e continua com o parceiro gosta de apanhar
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1625         1  concorda total
+                           853         2  concorda parcial
+                           913         3  discorda total
+                           320         4  discorda parcial
+                            74         5  neutro
+                            25         6  ns
+
+----------------------------------------------------------------------------------------------
+q38                     casamento de homem com homem ou de mulher com mulher deve ser proibido
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1478         1  concorda total
+                           491         2  concorda parcial
+                          1221         3  discorda total
+                           342         4  discorda parcial
+                           193         5  neutro
+                            85         6  ns
+
+----------------------------------------------------------------------------------------------
+q39                a mulher que apanha em casa deve ficar quieta para não prejudicar os filhos
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                           265         1  concorda total
+                           323         2  concorda parcial
+                          2660         3  discorda total
+                           468         4  discorda parcial
+                            83         5  neutro
+                            11         6  ns
+
+----------------------------------------------------------------------------------------------
+q40            a questão da violência contra as mulheres recebe mais importância do que merece
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                           401         1  concorda total
+                           454         2  concorda parcial
+                          2166         3  discorda total
+                           616         4  discorda parcial
+                           132         5  neutro
+                            41         6  ns
+
+----------------------------------------------------------------------------------------------
+q41                                      tem mulher que é pra casar, tem mulher que é pra cama
+----------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  lblconc
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/3810
+
+            tabulation:  Freq.   Numeric  Label
+                          1318         1  concorda total
+                           773         2  concorda parcial
+                          1005         3  discorda total
+                           340         4  discorda parcial
+                           258         5  neutro
+                           116         6  ns
